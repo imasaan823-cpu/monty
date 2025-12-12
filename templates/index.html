@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Run Away There's a Ghost</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+<h2>Run Away There's a Ghost</h2>
+
+<div id="score">0</div>
+
+<!-- Canvas full screen width (tinggi 250px) -->
+<canvas id="gameCanvas" height="250"></canvas>
+
+<script src="{{ url_for('static', filename='game.js') }}"></script>
+
+</body>
+</html>
+
